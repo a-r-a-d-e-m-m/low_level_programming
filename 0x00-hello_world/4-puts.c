@@ -1,10 +1,12 @@
-#include <stdio.h>
 /**
-*main - This prints text using a printf alternative.
+*main - This source prints with an alternative to printf.
 *
-*Return: a value of zero and progran's good beause the program works.
+*Return: When 0, code is fine.
 */
-int main(void)
-{puts("Programming is like building a multilingual puzzle\n");
+
+#include <stdio.h>
+
+int main(void) {
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
