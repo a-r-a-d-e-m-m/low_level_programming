@@ -2,11 +2,11 @@
 /**
 *main - This prints text using a printf alternative.
 *
-*return: a value of zero and progran's good beause the program works.
+*Return: a value of zero and progran's good beause the program works.
 */
 
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle \n");
-return (0);
+return 0;
 }
