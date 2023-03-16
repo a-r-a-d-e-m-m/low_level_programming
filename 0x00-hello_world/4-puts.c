@@ -4,8 +4,8 @@
 *
 *Return: a value of zero and progran's good beause the program works.
 */
-int main()
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle\n");
-return (0);
+return(0);
 }
