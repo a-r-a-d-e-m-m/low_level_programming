@@ -2,12 +2,11 @@
 /**
 *main - This prints text using a printf alternative.
 *
-*Return: a value of zero and progran's good beause the program works.
+*return: a value of zero and progran's good beause the program works.
 */
 
 int main(void)
 {
-char a[] = "\"Programming is like building a multilingual puzzle \n";
-puts(a);
+puts("\"Programming is like building a multilingual puzzle \n");
 return (0);
 }
