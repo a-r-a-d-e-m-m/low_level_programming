@@ -1,7 +1,7 @@
 /**
  *main - prints the size of data types.
  *
- *Return - a 0 means all is good.
+ *Return: a 0 means all is good.
  */
 #include <stdio.h>
 
