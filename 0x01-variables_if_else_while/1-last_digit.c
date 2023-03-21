@@ -2,20 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main - tells of a random number is negative, positive or zero.
+*main - tells if a random number is negative, positive or zero.
 *Return: success
 */
 int main(void)
 {
-int n;
+int n, ld;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-int n = n % 10;
+ld = n % 10;
 
 if (n > 5)
-printf("Last digit of %d is %d greater than 5\n", n, n);
+printf("Last digit of %d is %d greater than 5\n", n, ld);
 
 if (n == 0)
 printf("Last digit of %d is 0\n", n);
