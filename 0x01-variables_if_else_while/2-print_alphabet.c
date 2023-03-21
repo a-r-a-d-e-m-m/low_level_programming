@@ -6,11 +6,10 @@
 
 int main(void)
 {
-int c;
-if (c = 'a')
-putchar(c);
+char lc;
 
-else (c <= 'z'; c++)
-putchar(c,'\n');
+for (lc = 'a'; lc <= 'z'; lc++)
+putchar(lc);
+putchar('\n');
 return (0);
 }
