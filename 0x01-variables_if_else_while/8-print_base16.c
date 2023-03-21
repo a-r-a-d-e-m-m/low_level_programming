@@ -8,7 +8,7 @@ int main(void)
 {
 char b16a, b16n;
 
-for (b16a = '0'; b16a <= 'f'; ++b16a)
+for (b16a = '0'; b16a <= '9'; ++b16a)
 putchar(b16a);
 
 for (b16n = 'a'; b16n <= 'f'; ++b16n)
