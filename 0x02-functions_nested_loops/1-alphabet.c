@@ -2,6 +2,7 @@
 
 /**
  * main - prints all alphabets in lowercase
+ *
  * return: 0 is success
  */
 
