@@ -7,6 +7,7 @@
  * @n: print from this number
  * @i: print i
  * @j: print j
+ * Return: success.
  */
 	void print_to_98(int n)
 	{
