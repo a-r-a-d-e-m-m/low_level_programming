@@ -8,19 +8,19 @@
 */
 int main(void)
 {
-int n;
+int i;
 
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+i = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (n > 0)
-printf("%d is positive\n", n);
+if (i > 0)
+printf("%d is positive\n", i);
 
-if (n == 0)
-printf("%d is zero\n", n);
+if (i == 0)
+printf("%d is zero\n", i);
 
-if (n < 0)
-printf("%d is negative\n", n);
+if (i < 0)
+printf("%d is negative\n", i);
 
 return (0);
 }
