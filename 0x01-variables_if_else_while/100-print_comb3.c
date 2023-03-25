@@ -1,36 +1,29 @@
 #include <stdio.h>
-/**
- *main - prints unique numbers from 00 to 99.
- *return: 0.
- */
 
+/**
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
+ */
 int main(void)
 {
-int dd, d;
-int x = 0;
+	int n, m;
 
-while (x < 10)
-{
-putchar('0' + x);
-x++;
-}
-
-for (dd = 48; dd <= 58; dd++)
-{
-for (d = 49; d <= 59; ++d)
-{
-if (dd > d)
-{
-putchar(dd);
-putchar(d);
-if (dd != 56 ||  d != 57)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
