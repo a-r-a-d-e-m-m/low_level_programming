@@ -16,7 +16,6 @@ int _isdigit(int c)
 }
 
 
-1-main.c
 #include "main.h"
 #include <stdio.h>
 
