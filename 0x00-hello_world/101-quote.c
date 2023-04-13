@@ -1,11 +1,12 @@
+#include <stdio.h>
+#include <unistd.h>
+
 /**
  *main - prints text to the standard error.
  *
  *Return: 1 is succesful.
  */
 
-#include <stdio.h>
-#include <unistd.h>
 int main(void)
 
 {
