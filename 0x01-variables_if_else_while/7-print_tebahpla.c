@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - prints the lower case alphabets in reverse.
  *Return: 0.
@@ -6,11 +7,11 @@
 
 int main(void)
 {
-char rc;
 
-for (rc = 'z'; rc >= 'a'; --rc)
+char lowercase;
 
-putchar (rc);
+for (lowercase = 'z'; lowercase >= 'a'; --lowercase)
+putchar (lowercase);
 putchar ('\n');
 
 return (0);

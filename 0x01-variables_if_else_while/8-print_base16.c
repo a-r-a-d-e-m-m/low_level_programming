@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - prints numbers in base 16.
  *Return: 0;
@@ -6,14 +7,17 @@
 
 int main(void)
 {
-char b16a, b16n;
 
-for (b16a = '0'; b16a <= '9'; ++b16a)
-putchar(b16a);
+char base16a, base16n;
 
-for (b16n = 'a'; b16n <= 'f'; ++b16n)
-putchar(b16n);
+for (base16a = '0'; base16a <= '9'; ++base16a)
+{
+putchar(base16a); }
+
+for (base16n = 'a'; base16n <= 'f'; ++base16n)
+{
+putchar(base16n); }
+
 putchar('\n');
 
-return (0);
-}
+return (0); }
