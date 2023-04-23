@@ -2,19 +2,19 @@
 
 /**
  *_strchr - locates a character in a string.
- *@one: an input.
- *@too: another input.
+ *@c: an input.
+ *@s: another input.
  *Return: 0.
  */
 
-char *_strchr(char *one, char too)
+char *_strchr(char *s, char c)
 {
 int n = 0;
 
-for (; one[n] >= '\0'; ++n)
+for (; s[n] >= '\0'; ++n)
 {
-if (one[n] == too)
-return (&one[n]);
+if (s[n] == c)
+return (&s[n]);
 }
 
 return (0);

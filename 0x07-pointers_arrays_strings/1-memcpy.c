@@ -2,22 +2,22 @@
 
 /**
  *_memcpy - copies memory area.
- *@Dest: stored memory.
- *@source: copied memory.
+ *@src: copied memory.
+ *@dest:sstored memory.
  *@n: number of bytes.
  *Return: the copied memory with n bytes changed.
  */
 
-char *_memcpy(char *Dest, char *source, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 int b = 0;
 int i = n;
 
 for (; b < i; ++b)
 {
-Dest[b] = source[b];
+dest[b] = src[b];
 --n;
 }
 
-return (Dest);
+return (dest);
 }

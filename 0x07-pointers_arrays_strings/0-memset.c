@@ -3,22 +3,22 @@
 
 /**
  *_memset - fills memory with a constant byte
- *@no1: start address to be filled
- *@c: value we want
+ *@s: start address to be filled
+ *@b: value we want
  *@n: number of bytes that gets changed
  *
  *Return: Ever 0.
  */
 
-char *_memset(char *no1, char c, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 int i = 0;
 
-for (; n > 0; i++)
+for (; n > 0; ++i)
 {
-no1[i] = c;
+s[i] = b;
 --n;
 }
 
-return (no1);
+return (s);
 }

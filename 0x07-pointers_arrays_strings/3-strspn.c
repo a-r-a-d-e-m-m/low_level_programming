@@ -2,34 +2,34 @@
 
 /**
  * _strspn - gets the length of a prefix substring.
- * @one: an input.
- * @two: another input.
+ * @s: initial segment.
+ * @accept: from segment.
  * Return: 0.
  */
 
-unsigned int _strspn(char *one, char *two)
+unsigned int _strspn(char *s, char *accept)
 {
 unsigned int u = 0;
 int i;
 
-while (*one)
+while (*s)
 {
 
-for (i = 0; two[i]; i++)
+for (i = 0; accept[i]; ++i)
 {
 
-if (*one == two[i])
+if (*s == accept[i])
 {
 
 ++u;
 break;
 }
 
-else if (two[i + 1] == '\0')
+else if (accept[i + 1] == '\0')
 return (u);
 }
 
-one++;
+++s;
 }
 
 return (u);
